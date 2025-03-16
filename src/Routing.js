@@ -5,7 +5,7 @@ import Home from "./Components/Home";
 import UseEffect from "./Components/useEffect/useEffect";
 import ContextHook from "./Components/useContext/ContextHook";
 import ReducerHooks from "./Components/useReducer/ReducerHooks";
-import { CallbackHook } from "./Components/useCallback";
+import { CallbackHook } from "./Components/CallbackHook";
 import { UseRef } from "./Components/useRef";
 import { MemoHookExplanation } from "./Components/useMemo";
 import { ReduxMain } from "./Components/ReduxApp";
