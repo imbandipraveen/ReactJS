@@ -1,0 +1,160 @@
+.callback-explanation {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #333;
+  font-family: system-ui, -apple-system, sans-serif;
+
+  section {
+    margin: 3rem 0;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+    h1, h2 {
+      color: #2c3e50;
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+    }
+
+    h3 {
+      color: #3498db;
+      margin: 1rem 0;
+    }
+  }
+
+  .intro {
+    text-align: center;
+    
+    .definition {
+      max-width: 800px;
+      margin: 0 auto;
+      
+      code {
+        background: #f8f9fa;
+        padding: 0.2rem 0.4rem;
+        border-radius: 4px;
+        color: #e74c3c;
+      }
+    }
+  }
+
+  .birth-story {
+    background: #f8f9fa;
+    
+    p {
+      line-height: 1.6;
+    }
+  }
+
+  .need-points {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+
+    .point {
+      padding: 1.5rem;
+      background: #f8f9fa;
+      border-radius: 8px;
+      
+      h3 {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+    }
+  }
+
+  .challenge-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+
+    .challenge, .solution {
+      padding: 1.5rem;
+      background: #f8f9fa;
+      border-radius: 8px;
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+          margin: 0.8rem 0;
+          padding-left: 1.5rem;
+          position: relative;
+
+          &:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+          }
+        }
+      }
+    }
+  }
+
+  .examples {
+    .example {
+      margin: 2rem 0;
+      
+      code {
+        display: block;
+        padding: 1.5rem;
+        background: #2c3e50;
+        color: #fff;
+        border-radius: 8px;
+        overflow-x: auto;
+        font-family: monospace;
+        white-space: pre;
+      }
+    }
+  }
+
+  .tips-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+
+    .do-tips, .dont-tips {
+      padding: 1.5rem;
+      border-radius: 8px;
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+          margin: 0.8rem 0;
+          padding-left: 1.5rem;
+          position: relative;
+
+          &:before {
+            position: absolute;
+            left: 0;
+          }
+        }
+      }
+    }
+
+    .do-tips {
+      background: #e8f5e9;
+      
+      li:before {
+        content: "✓";
+        color: #4caf50;
+      }
+    }
+
+    .dont-tips {
+      background: #ffebee;
+      
+      li:before {
+        content: "×";
+        color: #f44336;
+      }
+    }
+  }
+}

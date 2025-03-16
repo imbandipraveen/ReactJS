@@ -1,0 +1,1 @@
+export { ReducerDoubleCounter } from "./ReducerDoubleCounter";
